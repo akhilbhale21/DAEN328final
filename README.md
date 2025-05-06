@@ -38,3 +38,5 @@ We used technologies like streamlit to display our visuals, postgres to store ou
 - Randil Wijayananda: cleaning, loading and streamlit
 - Inayaa Khoja: cleaning, presentation, and streamlit
 
+#### NOTE: .env file does not show up on github or if downloading from github
+
