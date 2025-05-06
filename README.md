@@ -26,6 +26,8 @@ We used technologies like streamlit to display our visuals, postgres to store ou
 <br>
 
 ## Contributions
-- jg
-- skdjch
+- Leisha Khapre: extracting, cleaning, and dockerizing
+- Akhil Bhale: cleaning, dockerizing and streamlit
+- Randil Wijayananda: cleaning, loading and streamlit
+- Inayaa Khoja: cleaning, presentation, and streamlit
 
