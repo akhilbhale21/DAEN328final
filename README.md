@@ -2,7 +2,7 @@
 
 ## Overview
 The goal of this project was to develop an entire ETL Pipeline from start to finish. We chose the NYC Taxi dataset. 
-We used technologies like streamlit to display our visuals, postgres to store our data, jupyter notebook to code it all, and docker. 
+We used technologies like streamlit to display our visuals, postgres to store our data, jupyter notebook to code it all, and docker. We used the API connected to the dataset "https://data.cityofnewyork.us/resource/4b4i-vvec.json". 
 <br>
 
 ## Postgres setup
@@ -15,16 +15,17 @@ We used technologies like streamlit to display our visuals, postgres to store ou
 ## How to Run the Project
 
 1. Download the "proj docker" folder
-2. Make changes in streamlit_app.py and Load-2.py. Update these values which currently have placeholders:
+2. Change the directory in the extract file. 
+3. Make changes in streamlit_app.py and Load-2.py. Update these values which currently have placeholders:
    ```python
    DB_HOST = 'localhost'
    DB_PORT = '5432'
    DB_NAME = 'taxi_data'
    DB_USER = 'postgres'
    DB_PASSWORD = 'hello'
-3. Go to terminal and run "docker build -t streamlit-etl-app ."
-4. Next, run "docker run -p 8501:8501 streamlit-etl-app"
-5. Copy and paste the Local URL in the browser of your choice. Below is a screenshot of the streamlit dashboard and what should come up on your screen too.
+4. Go to terminal and run "docker build -t streamlit-etl-app ."
+5. Next, run "docker run -p 8501:8501 streamlit-etl-app"
+6. Copy and paste the Local URL in the browser of your choice. Below is a screenshot of the streamlit dashboard and what should come up on your screen too.
 
 <br>
 <br>
