@@ -1,7 +1,6 @@
 # NYC Taxi Data
 
 ## Overview
-[Provide a brief summary of your project here. Include what the project does, technologies used, and the overall goal.]
 The goal of this project was to develop an entire ETL Pipeline from start to finish. We chose the NYC Taxi dataset. 
 We used technologies like streamlit to display our visuals, postgres to store our data, jupyter notebook to code it all, and docker. 
 <br>
