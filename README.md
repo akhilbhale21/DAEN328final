@@ -5,6 +5,13 @@ The goal of this project was to develop an entire ETL Pipeline from start to fin
 We used technologies like streamlit to display our visuals, postgres to store our data, jupyter notebook to code it all, and docker. 
 <br>
 
+## Postgres setup
+
+
+
+<br>
+
+
 ## How to Run the Project
 
 1. Download the "proj docker" folder
