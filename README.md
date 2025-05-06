@@ -2,7 +2,7 @@
 
 ## Overview
 The goal of this project was to develop an entire ETL Pipeline from start to finish. We chose the NYC Taxi dataset. 
-We used technologies like streamlit to display our visuals, postgres to store our data, jupyter notebook to code it all, and docker. We used the API connected to the dataset "https://data.cityofnewyork.us/resource/4b4i-vvec.json". 
+We used technologies like streamlit to display our visuals, postgres to store our data, jupyter notebook to code it all, and docker. We used the API connected to the dataset which was found in the nYC open data website. Our API key looked like this: "https://data.cityofnewyork.us/resource/4b4i-vvec.json". 
 <br>
 
 ## Postgres setup
