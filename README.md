@@ -17,7 +17,7 @@ We used technologies like streamlit to display our visuals, postgres to store ou
    DB_PASSWORD = 'hello'
 3. Go to terminal and run "docker build -t streamlit-etl-app ."
 4. Next, run "docker run -p 8501:8501 streamlit-etl-app"
-5. Copy ad paste the Local URL in the browser of your choice. Below is a screenshot of the streamlit dashboard and what should come up on your screen too.
+5. Copy and paste the Local URL in the browser of your choice. Below is a screenshot of the streamlit dashboard and what should come up on your screen too.
 
 <br>
 <br>
