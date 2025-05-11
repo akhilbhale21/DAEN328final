@@ -23,16 +23,14 @@ Created the ERD for our database to visually represent table relationships. This
 ## How to Run the Project
 
 1. Download the "proj docker" folder
-2. Make changes in streamlit_app.py and Load-2.py. Update these values which currently have placeholders:
+2. Make a .env file which should look like this (change the actual values of the variables):
    ```python
-   DB_HOST = 'localhost'
-   DB_PORT = '5432'
-   DB_NAME = 'taxi_data'
-   DB_USER = 'postgres'
-   DB_PASSWORD = 'hello'
-4. Go to terminal and run "docker build -t streamlit-etl-app ."
-5. Next, run "docker run -p 8501:8501 streamlit-etl-app"
-6. Copy and paste the Local URL in the browser of your choice. Below is a screenshot of the streamlit dashboard and what should come up on your screen too.
+    POSTGRES_USER=postgres
+    POSTGRES_PASSWORD=admin
+    POSTGRES_DB=taxi_data
+    DATABASE_URL=postgresql://postgres:admin@db:5432/taxi_data
+4. Next, run "docker-compose up --build"
+5. Copy and paste the URL in a browser of your choice. Replace the 0.0.0.0 with localhost. So the URL should look like "http://localhost:8501". Below is a screenshot of the streamlit dashboard and what should come up on your screen too.
 
 <br>
 <br>
@@ -45,6 +43,4 @@ Created the ERD for our database to visually represent table relationships. This
 - Akhil Bhale: cleaning, dockerizing and streamlit
 - Randil Wijayananda: cleaning, loading, Postgres and streamlit
 - Inayaa Khoja: cleaning, presentation, and streamlit
-
-#### NOTE: .env file does not show up on github or if downloading from github
 
